@@ -51,11 +51,11 @@
                 <configuration>
                     <wsdlUrls>
                         <wsdlUrl>
-                            http://localhost:8080/jaxwsapp/welcome?wsdl
+                            http://localhost:8080/sunbacksoap/travelservice?wsdl
                         </wsdlUrl>
                     </wsdlUrls>
                     <keep>true</keep>
-                    <packageName>com.training.welcomeservice</packageName>
+                    <packageName>com.training.suntravels</packageName>
                     <!--<sourceDestDir>${project.build.sourceDirectory}</sourceDestDir>-->
                     <sourceDestDir>${project.build.directory}/generated-sources/wsimport</sourceDestDir>
                     <sei/>
